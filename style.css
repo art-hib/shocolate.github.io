@@ -1,0 +1,92 @@
+@media (orientation: landscape) {
+    body{
+    }
+    div{
+        width: 50%;
+    }
+}
+
+article{
+    border:3px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+p{
+    margin: 15px 10px;
+}
+
+header{
+    height: 50px;
+    background-color: #93a8f5;
+    color: wheat;
+    display: flex;
+    text-align: center;
+}
+
+.r{
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+.column {
+    display: block;
+}
+.row{
+    
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+button:hover {
+	animation: bounce 1s;
+}
+
+.i {
+  background-image: url(foto/bels.jpeg);
+  color: white;
+}
+
+.b {
+  background-image: url(foto/moloh.jpg);
+  color: white;
+}
+
+.c {
+  background-image: url(foto/rubin.jpg);
+  color: white;
+}
+
+.d {
+  background-image: url(foto/gork.jpg);
+  color: white;
+}
+
+.pop {
+    color: black;
+}
+
+.lll {
+    background-image: url(foto/unnamed.png);
+    height: 350px;
+}
+
+.tyu {
+    background-color: saddlebrown;
+}
